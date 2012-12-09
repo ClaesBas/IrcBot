@@ -86,7 +86,7 @@ while do_loop:
                         (destination, ' '.join(parameters)) \
                     )
                     
-            # Skall vi "logga"?
+            # Should we "log" it?
             if(channel in LOG_CHANNELS):
                 
                 time = datetime.datetime.now()
